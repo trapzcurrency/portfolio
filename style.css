@@ -1,0 +1,21 @@
+body{
+	background-color: grey;
+}
+.navbar{
+	background: none;
+	background-color: none;
+}
+.container-fluid{
+	background-color: transparent;
+}
+.card{
+	border: none;
+}
+
+.pskills{
+	color: white;
+}
+.headerButtons{
+	width:150px; 
+	margin-right: 10px;
+}
