@@ -15,56 +15,53 @@
 <title>Trapzcurrency</title>
 </head>
 <body>
-  <div class="container-fluid">
-  </div>
- 
-  <div class="container-fluid mt-2">
-    <div class="row justify-content-center">
-        <a href="javascript:void(0)" class="btn btn-warning mr-2 headerButtons" style="color:white;" onclick="academics(1)">Academics</a>
-        <a href="javascript:void(0)" class="btn btn-primary headerButtons" onclick="academics(2)">Skills</a>
-        <a href="javascript:void(0)" class="btn headerButtons" style="background-color:#0077b5; color:white;"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-        <a href="javascript:void(0)" class="btn headerButtons" style="background-color: #F56040; color:white;"><i class="fa-brands fa-instagram"></i> Instagram</a>
-        <a href="myResume.html" class="btn headerButtons" style="background-color: black; color:white;"><i class="fa-solid fa-file"></i> Resume</a>
+    <div class="container-fluid">
     </div>
-    <div class="card mt-2">
-      <div class="card-header" style="background-color:#130603;  color:white;">
-        Trapz Welcomes You
-      </div>
-      <div class="card-body mt-2"style="background-image:url(naruto.png);height: 300px; color: white; opacity: 100%; border-radius: 1%; ">
-        <div class="row">
-          <div class="col-md-8">
-            <p id="pText"></p>
-            <p id="skilsTransition">Click to Check My Skills.</p>
-          </div>
-          <div class="col-md-4 d-flex justify-content-center" style="">
-            <h4> Using snapchat For Disguise </h4>
-            <img src="profile1.jpg" style="height: 200px; width: 200px; border-radius:100%; opacity: 80%;" alt="Avatar">
-          </div>
+     
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-4">
+            <a href="javascript:void(0)" class="headerButtons academic" onclick="academics(1)">Academics</a>
+            <a href="javascript:void(0)" class="headerButtons" onclick="academics(2)">Skills</a>
+            <a href="javascript:void(0)" class="headerButtons"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            <a href="javascript:void(0)" class="headerButtons"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="javascript:void(0)"  class="headerButtons resume" ><i class="fa-solid fa-file"></i> Resume</a>
         </div>
-      </div>
+        <div class="row mt-2" style="">
+            <div class="col-md-6 text-center">
+                <p class="pName">Hello My Self Anup</p>
+                <p>Hello, I'm Anup Gupta, a passionate and results-driven web developer with a knack for creating efficient, user-friendly, and visually appealing websites. My journey into the world of web development began with a deep curiosity for crafting digital experiences that seamlessly blend form and function.</p>
+                <p>I hold a BCA in PHP from Bharatiya Jain Sanghatana College, where I cultivated a solid foundation in programming and problem-solving. My academic journey laid the groundwork for my technical proficiency and fueled my enthusiasm for staying at the forefront of web development trends.</p>
+                <p>As a web developer, I thrive in both frontend and backend technologies. My skill set includes proficiency in HTML5, CSS3, and JavaScript for building responsive and dynamic user interfaces. I'm well-versed in popular frontend frameworks like React, ensuring a seamless and interactive user experience. On the backend, I have hands-on experience with database management, allowing me to create robust and scalable web applications.</p>
+                <p>This is my first portfolio just texting out how will it look</p>
+            </div>
+            <div class="col-md-6">
+                <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                            <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%">
+                            </stop>
+                            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%">
+                            </stop>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#sw-gradient)" d="M17.8,-32.1C22,-28.5,23.5,-21.4,27.2,-15.5C31,-9.6,37.1,-4.8,37.9,0.5C38.8,5.8,34.4,11.5,29.6,15.8C24.9,20.1,19.9,22.9,14.9,26.9C9.9,30.8,5,35.9,-1.6,38.6C-8.1,41.3,-16.2,41.7,-20.8,37.5C-25.4,33.4,-26.5,24.7,-29.7,17.7C-32.8,10.6,-37.9,5.3,-39.8,-1.1C-41.6,-7.4,-40.1,-14.9,-36,-20.2C-31.9,-25.5,-25.1,-28.7,-18.7,-31C-12.3,-33.3,-6.1,-34.6,0.3,-35.3C6.8,-35.9,13.7,-35.7,17.8,-32.1Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>
+                     <!-- <image href="1.jpg" style="overflow:hidden;" height="200" width="200" /> -->
+                </svg>
+            </div>
+        </div>
+        <div class="row text-center" style="height: 300px;">
+            <p id="pText" style="color: white;"></p>
+            <p id="skilsTransition" style="color: white;">Click to Check My Skills.</p>
+        </div>
     </div>
-    <div class="content mt-2" style="background-color:white;">
-        <div class="row text-center">
-            <h4 style="background-color:red;">Hobies</h4>
-        </div>
-        <div class="row">
-          <p>1) <span><i class="fa-solid fa-futbol"></i></span> Football</p>
-          <p>2) <span><i class="fa-solid fa-fire"></i></span> Night Camping</p>
-          <p>3)<span><i class="fa-solid fa-leaf"></i></span> Spending Time In nature</p>
-        </div>
-    </div>
-    
-  </div>
 </body>
-<div class="card mt-2">
-  <div class="card-header d-flex justify-content-center">
-    Copy right Discalimer = Naruto
-  </div>
-  <div class="card-body text-center">
+<div class="row footer text-center">
+    <p>
+        Copy right Discalimer = Naruto
+    </p>
     <h5 class="card-title">I Can coock PHP</h5>
     <p class="card-text">Coding is quite easy in gaming laptop.</p>
-    <a href="#" class="btn btn-primary">Anime</a>
-  </div>
+    <a href="javascript:void(0)" class="btn">Anime</a>
 </div>
 </html>
 

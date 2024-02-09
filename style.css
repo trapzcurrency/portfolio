@@ -1,5 +1,7 @@
 body{
-	background-color: grey;
+	background-color: #00ccff;
+	 font-family: 'Roboto';font-size: 22px;
+	 overflow-x: hidden;
 }
 .navbar{
 	background: none;
@@ -16,6 +18,27 @@ body{
 	color: white;
 }
 .headerButtons{
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	border: none;
 	width:150px; 
 	margin-right: 10px;
+	text-decoration: none;
 }
+.headerButtons:hover{
+	background-color: #f535aa;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	transition: .5s;
+}
+.pName{
+	margin-top: 20%;
+	font-size: 25px;
+	font-weight: 700;
+}
+/*p{
+	color: white;
+}*/

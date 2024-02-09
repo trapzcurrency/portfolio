@@ -1,5 +1,8 @@
 $(document).ready(function() {
-   
+	$('.headerButtons').on('')
+   	$('.resume').click(function() {
+   		window.open('myResume.html');
+   	})
     new Typewriter('#pText', {
   		strings: ['Hello There','This is trapzcurrency.'],
 		autoStart: true,
@@ -27,7 +30,6 @@ function academics(type) {
 
 	var html = '';
 	var title='';
-
 	if(type==1){
 
 		title = 'Academics';
@@ -47,25 +49,25 @@ function academics(type) {
 	            '<p>4) Database : Mysql,Yog sql.</p>';
 	}
 	
-	var box= bootbox.alert({
+	bootbox.alert({
 		title:title,
-		size:'large',
+		size:'medium',
 		message:html,
 		closeButton:false
 	})
 
-	if(type==1){
+	// if(type==1){
 
-		box.find('.modal-header').css({'background-color': '#D3D3D3' ,'color':'#36454F'})
-		box.find('.modal-body').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
-		box.find('.modal-footer').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
+	// 	box.find('.modal-header').css({'background-color': '#D3D3D3' ,'color':'#36454F'})
+	// 	box.find('.modal-body').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
+	// 	box.find('.modal-footer').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
 
-	}else{
+	// }else{
 
-		box.find('.modal-header').css({'background-color': '#0096FF' ,'color':'#ffd700'})
-		box.find('.modal-body').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
-		box.find('.modal-footer').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
-	}
+	// 	box.find('.modal-header').css({'background-color': '#0096FF' ,'color':'#ffd700'})
+	// 	box.find('.modal-body').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
+	// 	box.find('.modal-footer').css({'background-color': '#36454F' ,'color':'#D3D3D3'})
+	// }
 	
 }
 
