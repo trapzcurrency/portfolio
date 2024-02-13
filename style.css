@@ -1,5 +1,5 @@
 body{
-	background-color: #00ccff;
+	background-color: black;
 	 font-family: 'Roboto';font-size: 22px;
 	 overflow-x: hidden;
 }
@@ -21,7 +21,7 @@ body{
 	font-weight: 700;
 	font-size: 20px;
 	text-align: center;
-	color: black;
+	color: white;
 	border: none;
 	width:150px; 
 	margin-right: 10px;
@@ -30,10 +30,9 @@ body{
 .dropDown{
 	position: relative;
 	display: inline-block;
-	padding: 4px 8px 4px 8px;
 }
 .home{
-	text-align: left;
+	text-align: right;
 	display: none;
 	position: absolute;
 }
@@ -43,11 +42,7 @@ li{
 	text-align: center;
 }
 li:hover{
-	padding: 8px 4px 8px 4px;
 	background-color: grey;
-	border-radius: 15px;
-	
-	
 }
 .dropDown:hover .home{
 /*	background-color: red;*/
@@ -68,6 +63,35 @@ li:hover{
 	font-size: 25px;
 	font-weight: 700;
 }
+.modal-open{
+	background-color: pink;
+	background-image:linear-gradient(pink,red) ;
+}
+.modal-header{
+	color:black;
+}
+.modal-content{
+	background-color: #7B7371;
+
+	color: black;
+}
+@media only screen and (max-width:580px){
+ 	
+    .checking{
+        display: none;
+    }
+    .bootbox-body{
+    	overflow: auto;
+    }
+ }
+ .footer{
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	background-color: grey;
+ }
+
+/*Dynamic*/
+
 /*p{
 	color: white;
 }*/

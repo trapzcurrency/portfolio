@@ -3,6 +3,17 @@ $(document).ready(function() {
    	$('.resume').click(function() {
    		window.open('myResume.html');
    	})
+
+   	$('p').hover(function() {
+   		var col = Math.floor(Math.random()*90+1000);
+   		var colCode = "#D"+col+"E";
+   		$(this).css('color',colCode);
+   		
+   	},function() {
+   		var check=Math.floor(Math.random() * 90 + 10);
+   		var color = '#6c'+check;
+   		$(this).css('color',color)
+   	})
     new Typewriter('#pText', {
   		strings: ['Hello There','This is trapzcurrency.'],
 		autoStart: true,
