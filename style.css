@@ -65,6 +65,7 @@ li:hover{
 }
 .modal-open{
 	background-color: pink;
+	color: black;
 	background-image:linear-gradient(pink,red) ;
 }
 .modal-header{

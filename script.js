@@ -1,4 +1,23 @@
 $(document).ready(function() {
+
+
+	$("svg").mouseenter(
+	  function(){
+	    $(this).animate({marginLeft:'50px'},'fast')
+
+	  });
+	$("svg").mouseleave(
+	  function() {
+	    $(this).animate({marginLeft:'0px'},'medium')
+	  });
+
+
+	if($(window).width()<650){
+		bootbox.alert({
+			message:"You are using mobile please use laptop/desktop for the complete functionality of the site.Thank you!",
+			closeButton:false
+		})
+	}
 	$('.headerButtons').on('')
    	$('.resume').click(function() {
    		window.open('myResume.html');
@@ -7,7 +26,10 @@ $(document).ready(function() {
    	$('p').hover(function() {
    		var col = Math.floor(Math.random()*90+1000);
    		var colCode = "#D"+col+"E";
-   		$(this).css('color',colCode);
+   		$(this).css({
+   					'color':colCode,
+   					 'text-shadow': '1px 1px 1px #000, 3px 3px 5px blue'
+   					});
    		
    	},function() {
    		var check=Math.floor(Math.random() * 90 + 10);
