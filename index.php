@@ -18,6 +18,24 @@
 <body>
     <div class="container-fluid">
     </div>
+    <?php
+
+        $servername = "sql6.freemysqlhosting.net";
+        $username = "sql6686730";
+        $password = "x86K2L9lwk";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password);
+
+        // Check connection
+        if ($conn->connect_error) {
+          die("Connection failed: " . $conn->connect_error);
+        }else{
+              echo "Connected successfully";
+        print_r("successfully");
+        }
+          
+    ?>
      
     <div class="container-fluid">
         <div class="row justify-content-center mt-4">
